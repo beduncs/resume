@@ -1,24 +1,23 @@
+# Benjamin Hayden Duncan's Resume
 
-The easy way to host your resume is by making a `resume.json` on gist.github.com. 
+This repository manages my master resume library and generates targeted sub-resumes for deployment.
 
-For example mine can be found at https://gist.github.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105 which then automatically gets hosted at https://registry.jsonresume.org/thomasdavis 
+## Registry
+My current targeted resume is hosted at:
+https://registry.jsonresume.org/beduncs
 
-You can just edit your Gist using the online GUI and it should update within less than a minute. 
+## Resume Library Workflow
+This project uses a "Resume Library" approach:
+- `library.json`: The source of truth containing all work history and highlights.
+- `resume.json`: The targeted sub-resume generated for specific roles.
 
-## But
+### How to update
+1.  Add new experiences to `library.json`.
+2.  Use the Gemini CLI agent to subselect highlights into `resume.json`.
+3.  Push to the `master` branch. The GitHub Action in `.github/workflows/gist.yml` will automatically update the Gist linked to the registry.
 
-If you would like to have your `resume.json` in a repository aka like this. 
-
-You can set up a Github Action that automatically updates your gist `resume.json` to match what is in your repo everytime you push. 
-
-If you checkout the `.github/workflows/gist.yml` file you should be able to figure it out with relative ease. Or feel free to ping me an issue. 
-
-The basic steps are 
-
-1) Create a gist called `resume.json` 
-2) Create or fork this repo and commit your updated `resume.json` 
-3) Create a Personal Github token that has just the `gist` scope 
-4) Go to your repository settings, then to the secrets page, and add a new secret called `TOKEN` with the value being from the token you created in 3) 
-5) Now simply push to your repo, and your `resume.json` from the repo, will publish and override your gist `resume.json` and thus updating the registry to match
-
-Enjoy!
+## Setup for Automatic Gist Updates
+1. Create a Gist called `resume.json`.
+2. Create a Personal GitHub token with the `gist` scope.
+3. Add the token to repository secrets as `TOKEN`.
+4. Ensure the `gist_id` in `.github/workflows/gist.yml` matches your Gist ID.

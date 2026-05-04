@@ -1,22 +1,30 @@
 {
-  "name": "thomasdavis",
+  "name": "bhduncan-resume",
   "version": "1.0.0",
-  "description": "This is the resume of Thomas Davis. God of web development.",
-  "main": "index.js",
+  "description": "Ben Duncan's Resume Library and targeted sub-resumes.",
+  "main": "resume.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate:library": "resume-schema validate library.json",
+    "validate:sub": "resume-schema validate resume.json",
+    "test": "npm run validate:library && npm run validate:sub"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasdavis/resume.git"
+    "url": "git+https://github.com/beduncs/resume.git"
   },
   "keywords": [
-    "resume"
+    "resume",
+    "json-resume",
+    "mlops",
+    "ai-engineer"
   ],
-  "author": "Thomas Davis",
-  "license": "ISC",
+  "author": "Ben Duncan",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomasdavis/resume/issues"
+    "url": "https://github.com/beduncs/resume/issues"
   },
-  "homepage": "https://github.com/thomasdavis/resume#readme"
+  "homepage": "https://github.com/beduncs/resume#readme",
+  "devDependencies": {
+    "resume-schema": "^1.0.0"
+  }
 }

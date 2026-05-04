@@ -1,0 +1,265 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "claude",
+    "canonical": "https://raw.githubusercontent.com/bhduncan/resume/master/resume.json",
+    "version": "v1.4.0",
+    "lastModified": "2026-04-28T00:00:00Z"
+  },
+  "basics": {
+    "name": "Benjamin Hayden Duncan",
+    "label": "AI/ML Engineer & Technical Product Owner",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "https://www.linkedin.com/in/bhduncan/",
+    "summary": "AI/ML Engineer and Technical Product Owner with a background in MLOps, scalable Data Platforms, and Systems Engineering. Expert in leading cross-functional agile teams through the full product lifecycle, from concept generation to production deployment on Kubernetes and AWS.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bhduncan",
+        "url": "https://www.linkedin.com/in/bhduncan/"
+      },
+      {
+        "url": "https://github.com/beduncs",
+        "username": "beduncs",
+        "network": "github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Onebrief Inc.",
+      "position": "AI/ML Engineer",
+      "url": "https://onebrief.com",
+      "startDate": "2024-05-01",
+      "endDate": "",
+      "summary": "Architecting and implementing scalable AI services for edge computing and constrained environments.",
+      "highlights": [
+        "Architected a scalable, modular inference service for deploying LLMs on Kubernetes in air-gapped environments",
+        "Engineered RAG (Retrieval-Augmented Generation) pipelines for secure document summarization and intelligence extraction",
+        "Developed custom layout detection algorithms and OCR services for complex military documentation",
+        "Optimized model inference performance using vLLM and NVIDIA Triton for low-latency delivery"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Machine Learning Engineer Sr. / Product Owner",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2022-09-01",
+      "endDate": "2024-05-01",
+      "summary": "Full-lifecycle leadership of MLOps platforms and data-driven product strategy.",
+      "highlights": [
+        "Wore several hats in designing, building, and deploying ML and data products in an agile environment",
+        "Generated product vision, interfaced with customers, and executed from concept generation to product offering",
+        "Standardized MLOps workflows using Kubeflow pipelines, reducing model deployment time by 40%",
+        "Designed and maintained resilient Kubernetes infrastructure on AWS to support TB-scale model training",
+        "Owned ML operations including Kubeflow pipelines, models registry development, and model framework tools",
+        "Established a centralized model registry and framework-agnostic deployment tools for diverse engineering teams"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Engineering Leadership Development Program (ELDP)",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2019-03-01",
+      "endDate": "2022-10-01",
+      "summary": "Selective three-year rotational program for high-potential leaders involving cross-disciplinary technical rotations.",
+      "highlights": [
+        "Completed high-impact rotations across Systems, Software, and Data Engineering domains",
+        "Participated in a selective, rotational program consisting of leadership development and technical training",
+        "Awarded for technical excellence in defense system integration and agile project management"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Software Engineer - Data Platform & Product Owner",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2021-12-01",
+      "endDate": "2022-09-01",
+      "summary": "Driving technical strategy for large-scale data storage and analytics platforms.",
+      "highlights": [
+        "Led an agile scrum team in the development of a large-scale data storage and retrieval platform",
+        "Design normalized PostgreSQL catalog for inventorying terabytes of diverse data assets in S3 object storage",
+        "Designed Airflow ETL pipelines for ingesting structured and unstructured data from various sources",
+        "Built Python interfaces and tools for querying, storing, and accessing data assets using clean code principles",
+        "Owned the development of a scalable distributed data solution utilizing S3, Presto, and PostgreSQL"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Software Engineer - Data Analytics & Scrum Master",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2021-02-01",
+      "endDate": "2021-12-01",
+      "summary": "Facilitating agile delivery of expert systems and telemetry analysis tools.",
+      "highlights": [
+        "Developed advanced data analysis tools and Expert Systems using Python",
+        "Served as Scrum Master for teams delivering advanced telemetry visualization tools using Python and Tableau",
+        "Held responsibility for defining the roadmap, backlog grooming, sprint planning, and reporting to management",
+        "Generated and prepared simulated missile telemetry data for ingestion into Machine Learning pipelines",
+        "Developed Python and Tableau tools for data processing, analysis, and visualization"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Systems Engineer - Component Qualification Testing",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2020-01-01",
+      "endDate": "2021-02-01",
+      "summary": "Ensuring mission success through rigorous environmental and E3 qualification.",
+      "highlights": [
+        "Led verification testing for missile guidance sections, ensuring compliance with MIL-STD-810/464/461",
+        "Managed complex hardware-in-the-loop (HWIL) testing schedules in classified environments using JIRA KanBan",
+        "Streamlined requirements verification workflows, reducing testing cycles by 15%",
+        "Navigated complex security environments involving classified assets, facilities, and equipment"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "position": "Systems Engineer - Requirements and Architecture",
+      "url": "https://www.lockheedmartin.com",
+      "startDate": "2018-01-01",
+      "endDate": "2019-12-01",
+      "summary": "Designing complex system architectures using Model-Based Systems Engineering (MBSE).",
+      "highlights": [
+        "Developed detailed hardware/software systems architecture using SysML with Rhapsody",
+        "Interfaced with customers and utilized DOORS to create, capture, link, and manage requirements",
+        "Developed system-level specifications and DoDAF architecture views",
+        "Created DXL scripts, VBA tools, and procedures to automate repetitive processes, saving 100+ manual hours per month",
+        "Regularly prepared and presented architectural content to customers and internal reviewers"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Guys with Ties Philanthropy",
+      "position": "President / Board Member",
+      "url": "https://guyswithties.org",
+      "startDate": "2019-12-01",
+      "endDate": "",
+      "summary": "Leading a non-profit organization focused on community fundraising and social impact.",
+      "highlights": [
+        "Spearheaded fundraising initiatives that raised over $500,000 for local charities",
+        "Led a local non-profit in planning events and fundraising to support those in need"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "url": "https://www.purdue.edu",
+      "area": "Interdisciplinary Engineering",
+      "studyType": "Master of Science (MS)",
+      "startDate": "2020-01-01",
+      "endDate": "2022-05-01",
+      "score": "3.91",
+      "courses": ["Concentration in Systems Engineering"]
+    },
+    {
+      "institution": "University of Florida",
+      "url": "https://www.ufl.edu",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "2013-08-01",
+      "endDate": "2017-12-01",
+      "score": "3.45",
+      "courses": ["Minor in Computer Science"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Agentic AI Nanodegree",
+      "date": "2026-04-01",
+      "issuer": "Udacity",
+      "url": ""
+    },
+    {
+      "name": "CKA: Certified Kubernetes Administrator",
+      "date": "2024-03-01",
+      "issuer": "The Linux Foundation",
+      "url": ""
+    },
+    {
+      "name": "AI Software Engineer",
+      "date": "2023-04-01",
+      "issuer": "U.S. Department of Labor",
+      "url": ""
+    },
+    {
+      "name": "Machine Learning DevOps Engineer",
+      "date": "2022-12-01",
+      "issuer": "Udacity",
+      "url": ""
+    },
+    {
+      "name": "Associate Systems Engineering Professional (ASEP)",
+      "date": "2019-07-01",
+      "issuer": "INCOSE",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI/ML & MLOps",
+      "level": "Experienced",
+      "keywords": [
+        "Large Language Models (LLM)",
+        "RAG Pipelines",
+        "Vector Search (Pinecone/Milvus)",
+        "Kubeflow",
+        "Model Registry",
+        "Agentic AI",
+        "Model Context Protocol (MCP)",
+        "vLLM",
+        "NVIDIA Triton"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "Experienced",
+      "keywords": [
+        "PostgreSQL",
+        "Apache Airflow",
+        "ETL Pipelines",
+        "AWS S3",
+        "Python",
+        "Presto",
+        "Data Orchestration",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Experienced",
+      "keywords": [
+        "Kubernetes",
+        "Docker",
+        "AWS (EKS/S3/EC2)",
+        "CI/CD Pipelines",
+        "Terraform",
+        "Agile / Scrum / Kanban"
+      ]
+    },
+    {
+      "name": "Systems Engineering",
+      "level": "Experienced",
+      "keywords": [
+        "MBSE (SysML / Rhapsody / Cameo)",
+        "DOORS",
+        "DXL / VBA",
+        "MIL-STD-810/464/461",
+        "DoDAF Architecture Views",
+        "Agile Product Ownership"
+      ]
+    }
+  ],
+  "projects": []
+}
