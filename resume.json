@@ -6,19 +6,15 @@
     "lastModified": "2026-05-04T00:00:00Z"
   },
   "basics": {
-    "name": "Benjamin Hayden Duncan",
-    "label": "AI/ML Engineer | MLOps & World Modeling Infrastructure",
-    "image": "",
-    "email": "",
-    "phone": "",
+    "name": "Ben Duncan",
+    "label": "AI/ML Engineer | MLOps Specialist",
+    "email": "benjamin.h.duncan@gmail.com",
     "url": "https://www.linkedin.com/in/bhduncan/",
-    "summary": "AI/ML Engineer specializing in the deployment and scaling of complex models in constrained and high-dimensional environments. Expert in architecting MLOps pipelines for large-scale inference and distributed systems, with a focus on efficient model serving and secure data infrastructure.",
+    "summary": "AI/ML Engineer specializing in architecting large-scale distributed systems and MLOps infrastructure. Expert in deploying complex models on Kubernetes, optimizing inference for high-dimensional data processing, and building modular, scalable AI services for constrained and air-gapped environments.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
+      "city": "Orlando",
       "countryCode": "US",
-      "region": ""
+      "region": "Florida"
     },
     "profiles": [
       {
@@ -35,56 +31,56 @@
   },
   "work": [
     {
-      "name": "Onebrief Inc.",
+      "name": "Onebrief",
       "position": "AI/ML Engineer",
       "url": "https://onebrief.com",
       "startDate": "2024-05-01",
-      "endDate": "",
-      "summary": "Architecting and implementing scalable AI services for edge computing and constrained environments.",
+      "summary": "Architecting and implementing scalable AI services and distributed infrastructure for edge computing and constrained environments.",
       "highlights": [
-        "Architected a scalable, modular inference service for deploying LLMs on Kubernetes in air-gapped environments, optimizing for high-dimensional data processing",
-        "Optimized model inference performance using vLLM and NVIDIA Triton for low-latency delivery in resource-constrained environments",
-        "Engineered RAG (Retrieval-Augmented Generation) pipelines for secure document intelligence extraction, focusing on high-performance retrieval and processing",
-        "Developed custom layout detection algorithms and OCR services to handle complex, non-standard documentation structures"
+        "Implemented a scalable, modular service for deploying models on Kubernetes in constrained environments",
+        "Architected multi-agent structured graph workflows and developed Model Context Protocol (MCP) Servers to expose internal application tools for autonomous agent orchestration",
+        "Deployed fine-tuned Large Language Models (LLM) providing AI summarization capabilities",
+        "Created machine learning and advanced algorithm services for document layout detection and extraction"
       ]
     },
     {
       "name": "Lockheed Martin",
-      "position": "Machine Learning Engineer Sr. / Product Owner",
+      "position": "Machine Learning Engineer, Product Owner",
       "url": "https://www.lockheedmartin.com",
       "startDate": "2022-09-01",
       "endDate": "2024-05-01",
-      "summary": "Full-lifecycle leadership of MLOps platforms and data-driven product strategy.",
+      "summary": "Full-lifecycle leadership of MLOps platforms and data-driven product strategy for large-scale engineering teams.",
       "highlights": [
-        "Standardized MLOps workflows using Kubeflow pipelines, reducing model deployment time by 40% for large-scale engineering teams",
-        "Designed and maintained resilient Kubernetes infrastructure on AWS to support TB-scale model training and high-throughput evaluation",
-        "Established a centralized model registry and framework-agnostic deployment tools to support diverse modeling environments (PyTorch/Triton)",
-        "Owned ML operations including model registry development and model framework tools for mission-critical deployments"
+        "Owned ML operations including Kubeflow pipelines, models registry development, and model framework tools",
+        "Deployed and maintained tools and infrastructure built on Kubernetes and AWS cloud technology to support TB-scale model training and evaluation",
+        "Wore several hats as a product owner and engineer in designing, building, deploying and maintaining data products and ML models in an agile environment",
+        "Led the data operations team in data collection, ETL pipelines, and developing data access tools and APIs"
       ]
     },
     {
       "name": "Lockheed Martin",
-      "position": "Software Engineer - Data Platform & Product Owner",
+      "position": "Data Engineer, Product Owner",
       "url": "https://www.lockheedmartin.com",
       "startDate": "2021-12-01",
       "endDate": "2022-09-01",
-      "summary": "Driving technical strategy for large-scale data storage and analytics platforms.",
+      "summary": "Driving technical strategy for high-performance querying and large-scale distributed data solutions.",
       "highlights": [
-        "Led the development of a large-scale data storage and retrieval platform for terabytes of diverse data assets in S3 object storage",
-        "Designed Airflow ETL pipelines for ingesting structured and unstructured data, serving as the foundation for model training and evaluation",
-        "Built Python interfaces and tools for high-performance querying and access of large-scale distributed data solutions"
+        "Led an agile scrum team in the development of a TB scale data storage and retrieval platform",
+        "Designed Airflow ETL pipelines for ingesting structured and unstructured data from various sources into object storage",
+        "Built Python interfaces and tools for querying, storing, and accessing data assets using clean code principles"
       ]
     },
     {
       "name": "Lockheed Martin",
-      "position": "Software Engineer - Data Analytics & Scrum Master",
+      "position": "Software Engineer, Scrum Master",
       "url": "https://www.lockheedmartin.com",
       "startDate": "2021-02-01",
       "endDate": "2021-12-01",
-      "summary": "Facilitating agile delivery of expert systems and telemetry analysis tools.",
+      "summary": "Facilitating delivery of expert systems and telemetry analysis tools using robust CI/CD and containerization.",
       "highlights": [
-        "Generated and prepared simulated missile telemetry data for ingestion into Machine Learning pipelines, focusing on high-fidelity signal analysis",
-        "Developed advanced data analysis tools and Expert Systems using Python for telemetry visualization and anomaly detection"
+        "Leveraged containerization and CI/CD to create a robust development and delivery environment",
+        "Generated and prepared simulated missile telemetry data for ingestion into Machine Learning pipelines",
+        "Developed Python and Tableau tools for high-performance data processing, analysis, and visualization"
       ]
     }
   ],
@@ -92,7 +88,7 @@
     {
       "institution": "Purdue University",
       "url": "https://www.purdue.edu",
-      "area": "Interdisciplinary Engineering",
+      "area": "Engineering, Interdisciplinary Engineering",
       "studyType": "Master of Science (MS)",
       "startDate": "2020-01-01",
       "endDate": "2022-05-01",
@@ -103,7 +99,7 @@
       "institution": "University of Florida",
       "url": "https://www.ufl.edu",
       "area": "Mechanical Engineering",
-      "studyType": "Bachelor of Science (BS)",
+      "studyType": "Bachelor of Science (B.S.)",
       "startDate": "2013-08-01",
       "endDate": "2017-12-01",
       "score": "3.45",
@@ -112,71 +108,59 @@
   ],
   "certificates": [
     {
-      "name": "Agentic AI Nanodegree",
-      "date": "2026-04-01",
-      "issuer": "Udacity",
-      "url": ""
-    },
-    {
       "name": "CKA: Certified Kubernetes Administrator",
       "date": "2024-03-01",
-      "issuer": "The Linux Foundation",
-      "url": ""
-    },
-    {
-      "name": "AI Software Engineer",
-      "date": "2023-04-01",
-      "issuer": "U.S. Department of Labor",
-      "url": ""
+      "issuer": "The Linux Foundation"
     },
     {
       "name": "Machine Learning DevOps Engineer",
       "date": "2022-12-01",
-      "issuer": "Udacity",
-      "url": ""
+      "issuer": "Udacity"
+    },
+    {
+      "name": "Agentic AI Nanodegree",
+      "date": "2026-04-01",
+      "issuer": "Udacity"
     }
   ],
   "skills": [
     {
-      "name": "AI/ML & MLOps",
-      "level": "Experienced",
+      "name": "MLOps & Infrastructure",
       "keywords": [
-        "Large Language Models (LLM)",
-        "vLLM",
+        "Kubernetes (CKA)",
+        "Kubeflow Pipelines",
+        "Docker",
         "NVIDIA Triton",
-        "Kubeflow",
-        "Distributed Training & Inference",
-        "RAG Pipelines",
-        "Vector Search (Pinecone/Milvus)",
-        "Agentic AI",
-        "Model Context Protocol (MCP)"
+        "vLLM",
+        "AWS (EKS/S3/EC2)",
+        "CI/CD Pipelines",
+        "Distributed Systems Architecture",
+        "GPU Resource Optimization"
       ]
     },
     {
-      "name": "Infrastructure & Deployment",
-      "level": "Experienced",
+      "name": "AI/ML Development",
       "keywords": [
-        "Kubernetes (CKA)",
-        "Docker",
-        "AWS (EKS/S3/EC2)",
-        "CI/CD Pipelines",
-        "Terraform",
-        "Distributed Systems Architecture",
-        "GPU/TPU Resource Optimization"
+        "Python (PyTorch/JAX focus)",
+        "Large Language Models (LLM)",
+        "Distributed Training & Inference",
+        "Multi-agent Systems",
+        "Agentic AI",
+        "Model Context Protocol (MCP)",
+        "RAG Pipelines",
+        "Vector Search"
       ]
     },
     {
       "name": "Data Engineering",
-      "level": "Experienced",
       "keywords": [
-        "PostgreSQL",
         "Apache Airflow",
         "ETL Pipelines",
-        "AWS S3",
         "Large-scale Data Orchestration",
-        "Python (PyTorch/JAX focus)"
+        "TB-scale Data Platforms",
+        "PostgreSQL",
+        "SQL Data Catalogs"
       ]
     }
-  ],
-  "projects": []
+  ]
 }
